@@ -1,0 +1,82 @@
+TASK 1 ; Basic Task
+
+mkdir [myProject]
+mv \[myProject\]/ myProject 
+touch app.js
+mkdir myProject2
+cp myProject/app.js myProject2/app.js
+
+
+TASK2; Absolute and Relative Paths
+
+touch exercise.txt && mv exercise.txt /tmp && rm -f /tmp/exercise.txt
+
+TASK 3: Cat commands
+
+1. Create 3 files namely umuzi.txt, recruits.txt and cohort.txt.
+ touch umuzi.txt
+ touch recruits.txt
+ touch cohort.txt
+
+2. Fill all 3 files with contents of your choice.
+
+cat > umuzi.txt
+Umuzi works with leading employers to equip talented young people with scarce digital skills they need to access high-value careers and thrive in the fourth industrial revolution.
+
+cat > cohort.txt
+TALENT FOR THE FOURTH INDUSTRIAL REVOLUTION
+
+cat > recruits,txt
+Umuzi's learnership programme supports talented young people to access high-value careers. 
+
+3. Write a script that concatenates the content of umuzi.txt, recruit.txt, cohort.txt and displays the result on the screen.
+
+cat umuzi.txt recruits.txt cohort.txt
+
+4. Write a script that takes the content of umuzi.txt, cohort.txt and recruits.txt to print/store the output into a new file named summary.txt.
+
+cat umuzi.txt cohort.txt recruits.txt > summary.txt 
+
+5. Write a script that create a new file named summary.txt with new content. The script need to be careful not to override the first existing summary.txt file but should rather append the new content below the old one.
+
+echo "THIS IS THE NEW CONTENT. IT SHOULD APPEAR AFTER THE ORININAL CONTENT." >> summary.txt 
+
+TASK 4: The locate command.
+
+locate umuzi > search_result.txt
+
+TASK 5: The locate command cont..
+
+mkdir mydocument && cd mydocument && touch pad.txt && cd ..
+mkdir work
+cp mydocument/pad.txt work/pad_copy.txt
+sudo apt updatedb
+cd ../../mydocument
+locate pad_copy.txt
+
+TASK 6: Find commands
+
+find -type f -name "*.pdf" -exec cp {} ~/Desktop/FAITH \;
+touch search_result.txt
+mv recruit/search_result.txt /Desktop/search_result.txt 
+dir > search_result.txt
+
+
+TASK 7: Text Editor
+
+nano my_bio.txt
+mkdir my_files && mv my_bio.txt my_files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
