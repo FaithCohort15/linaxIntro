@@ -1,5 +1,4 @@
-TASK 1 ; Basic Task
-
+```
 mkdir [myProject]
 mv \[myProject\]/ myProject 
 touch app.js
@@ -68,9 +67,7 @@ nano my_bio.txt
 mkdir my_files && mv my_bio.txt my_files
 
 
-
-
-
+```
 
 
 
